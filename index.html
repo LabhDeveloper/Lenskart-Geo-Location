@@ -122,8 +122,9 @@
 
 <!--Geolocation-->
                 <div class="geo">
-                    
+                    <img src="Images/locate.png" alt="Location" >
                     <span id="location"></span>
+                    <img src="Images/sun.png" alt="Weather" >
                     <span id="weather"></span>
                 
                 </div>
@@ -605,7 +606,7 @@
                 console.log(data)
                 let cityName = data.city.name
                 let temp = data.list[0].temp.day
-                x.innerText = `${cityName} `
+                x.innerText = `${cityName} `.toUpperCase()
                 y.innerText = `${temp} °C`;
                 
             })

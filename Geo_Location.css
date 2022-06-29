@@ -179,7 +179,20 @@ a {
     height: 44px;
     
 }
+ 
+.geo > img{
+    height: 34px;
+    width: 35px;
+    margin-left: 20px;
+}
 
+.geo > span{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
 
 
 
